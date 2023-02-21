@@ -17,10 +17,13 @@ function Welcome() {
                   We are an electrical company that provides a wide range of
                   services to residential and commercial customers. Our team of
                   experienced electricians is dedicated to providing quality
-                  workmanship and customer service. We specialize in all aspects
-                  of electrical work, from wiring and installation to repair and
-                  maintenance. Our services include the installation of pillars.
-                  With our expertise, you can rest assured that
+                  workmanship and customer service.
+                  <p className="d-none d-sm-block">
+                    We specialize in all aspects of electrical work, from wiring
+                    and installation to repair and maintenance. Our services
+                    include the installation of pillars. With our expertise, you
+                    can rest assured that
+                  </p>
                 </p>
                 <a
                   data-aos="fade-up"
