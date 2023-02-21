@@ -137,7 +137,7 @@ function Home() {
       >
         <i className="bi bi-arrow-up-short" />
       </a>
-      <div id="preloader" />
+      {/* <div id="preloader" /> */}
     </div>
   );
 }
