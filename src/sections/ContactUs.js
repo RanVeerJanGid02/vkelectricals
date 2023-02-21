@@ -41,7 +41,7 @@ function ContactUs () {
               </div>
               <div className="row gy-4 mt-1">
                 <div className="sm-4">
-                <div><iframe src="https://maps.google.com/maps?q=22.6006761076799, 75.70898879296767&z=15&output=embed" width="100%" height="270" framborder="0" ></iframe>
+                <div><iframe src="https://maps.google.com/maps?q=22.6006761076799, 75.70898879296767&z=15&output=embed" width="100%" height="270" frameBorder="0" ></iframe>
 </div>
                 {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen="" style={{border: 0, width: '100%', height: '384px'}}></iframe> */}
                   {/* <iframe src="https://www.google.com/maps/embed?pb=!3m1!4b1!4m5!3m4!1s0x3962562a5336d85f:0x4b0a3f9d195308c2!8m2!3d22.5970751!4d75.7084111" frameBorder={0} style={{border: 0, width: '100%', height: '384px'}} allowFullScreen ></iframe> */}
