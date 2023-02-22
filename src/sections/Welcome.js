@@ -14,14 +14,14 @@ function Welcome() {
                   Welcome to <span>V.K. ELECTRICALS</span>
                 </h2>
                 <p data-aos="fade-up">
-                  We are an electrical company that provides a wide range of
-                  services to residential and commercial customers.
+                  We are an electrical company
                   <p className="d-none d-sm-block">
                     We specialize in all aspects of electrical work, from wiring
                     and installation to repair and maintenance. Our services
                     include the installation of pillars. With our expertise, you
-                    can rest assured that. Our team is
-                  dedicated to providing quality service.
+                    can rest assured that. Our team is dedicated to providing
+                    quality service.that provides a wide range of services to
+                    residential and commercial customers.
                   </p>
                 </p>
                 <a
