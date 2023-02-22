@@ -15,14 +15,13 @@ function Welcome() {
                 </h2>
                 <p data-aos="fade-up">
                   We are an electrical company that provides a wide range of
-                  services to residential and commercial customers. Our team of
-                  experienced electricians is dedicated to providing quality
-                  workmanship and customer service.
+                  services to residential and commercial customers.
                   <p className="d-none d-sm-block">
                     We specialize in all aspects of electrical work, from wiring
                     and installation to repair and maintenance. Our services
                     include the installation of pillars. With our expertise, you
-                    can rest assured that
+                    can rest assured that. Our team is
+                  dedicated to providing quality service.
                   </p>
                 </p>
                 <a
