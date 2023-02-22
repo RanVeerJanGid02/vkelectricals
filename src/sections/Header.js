@@ -1,14 +1,16 @@
 import React from "react";
 
+
 function Header() {
   return (
-    <header id="header" style={{zIndex:"1111",background:"green"}} className="header d-flex align-items-center">
+    <header id="header" style={{zIndex:"1111"}} className="header d-flex align-items-center">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="index.html" className="logo d-flex align-items-center">
           {/* Uncomment the line below if you also wish to use an image logo */}
           {/* <img src="assets/img/logo.png" alt=""> */}
           <h1>
-            V.K. ELECTRICALS<span>.</span>
+            <img src="/favicon-32x32.png"/>
+            
           </h1>
         </a>
         <i className="mobile-nav-toggle mobile-nav-show bi bi-list" />
