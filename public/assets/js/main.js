@@ -82,6 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let portfolionIsotope = document.querySelector(".portfolio-isotope");
 
   if (portfolionIsotope) {
+    alert("p loaded")
     let portfolioFilter = portfolionIsotope.getAttribute(
       "data-portfolio-filter"
     )
@@ -135,6 +136,9 @@ document.addEventListener("DOMContentLoaded", () => {
         });
       },1000);
     });
+  }else{
+    alert("p not loaded")
+
   }
 
   /**
