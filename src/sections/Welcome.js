@@ -15,6 +15,7 @@ function Welcome() {
                 </h2>
                 <p data-aos="fade-up">
                   We are an electrical company
+                  </p>
                   <p className="d-none d-sm-block">
                     We specialize in all aspects of electrical work, from wiring
                     and installation to repair and maintenance. Our services
@@ -22,7 +23,6 @@ function Welcome() {
                     can rest assured that. Our team is dedicated to providing
                     quality service.that provides a wide range of services to
                     residential and commercial customers.
-                  </p>
                 </p>
                 <a
                   data-aos="fade-up"
