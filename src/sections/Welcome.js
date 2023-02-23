@@ -28,7 +28,7 @@ function Welcome() {
                   data-aos="fade-up"
                   data-aos-delay={200}
                   className="btn-get-started"
-                  href="https://wa.me/9300550509?text=I'm%20interested%20in%20your%20services"
+                  href="https://wa.me/+919300550509?text=I'm%20interested%20in%20your%20services"
                   target="_blank"
                 >
                   <BsWhatsapp size={24} />{" "}
