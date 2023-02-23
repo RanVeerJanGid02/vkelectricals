@@ -185,6 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
   window.addEventListener('load', () => {
+    alert("first load")
     aos_init();
   });
 
