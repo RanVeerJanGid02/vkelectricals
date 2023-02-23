@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.addEventListener("load", () => {
       window.setTimeout(() => {
-        alert("A LOADED");
+        alert("A LODED");
 
         let portfolioIsotope = new Isotope(
           document.querySelector(".portfolio-container"),
