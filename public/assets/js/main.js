@@ -79,28 +79,27 @@ document.addEventListener("DOMContentLoaded", () => {
   /**
    * Porfolio isotope and filter
    */
-  let portfolionIsotope = document.querySelector(".portfolio-isotope");
+  setTimeout(() => {
+    alert("A LODED");
+    let portfolionIsotope = document.querySelector(".portfolio-isotope");
 
-  if (portfolionIsotope) {
-    alert("p loaded")
-    let portfolioFilter = portfolionIsotope.getAttribute(
-      "data-portfolio-filter"
-    )
-      ? portfolionIsotope.getAttribute("data-portfolio-filter")
-      : "*";
-    let portfolioLayout = portfolionIsotope.getAttribute(
-      "data-portfolio-layout"
-    )
-      ? portfolionIsotope.getAttribute("data-portfolio-layout")
-      : "masonry";
-    let portfolioSort = portfolionIsotope.getAttribute("data-portfolio-sort")
-      ? portfolionIsotope.getAttribute("data-portfolio-sort")
-      : "original-order";
+    if (portfolionIsotope) {
+      alert("p loaded");
+      let portfolioFilter = portfolionIsotope.getAttribute(
+        "data-portfolio-filter"
+      )
+        ? portfolionIsotope.getAttribute("data-portfolio-filter")
+        : "*";
+      let portfolioLayout = portfolionIsotope.getAttribute(
+        "data-portfolio-layout"
+      )
+        ? portfolionIsotope.getAttribute("data-portfolio-layout")
+        : "masonry";
+      let portfolioSort = portfolionIsotope.getAttribute("data-portfolio-sort")
+        ? portfolionIsotope.getAttribute("data-portfolio-sort")
+        : "original-order";
 
-    window.addEventListener("load", () => {
-      setTimeout(() => {
-        alert("A LODED");
-
+      window.addEventListener("load", () => {
         let portfolioIsotope = new Isotope(
           document.querySelector(".portfolio-container"),
           {
@@ -134,13 +133,9 @@ document.addEventListener("DOMContentLoaded", () => {
             false
           );
         });
-      },1000);
-    });
-  }else{
-    alert("p not loaded")
-
-  }
-
+      });
+    }
+  }, 1000);
   /**
    * Init swiper slider with 1 slide at once in desktop view
    */
