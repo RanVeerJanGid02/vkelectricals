@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
       : "original-order";
 
     window.addEventListener("load", () => {
-      window.setTimeout(() => {
+      setTimeout(() => {
         alert("A LODED");
 
         let portfolioIsotope = new Isotope(
