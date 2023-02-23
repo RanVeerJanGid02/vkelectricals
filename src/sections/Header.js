@@ -2,6 +2,13 @@ import React from "react";
 
 
 function Header() {
+  function mobileNavToogle() {
+    document.querySelector('body').classList.toggle('mobile-nav-active');
+    const mobileNavShow = document.querySelector('.mobile-nav-show');
+    const mobileNavHide = document.querySelector('.mobile-nav-hide');  
+    mobileNavShow.classList.toggle('d-none');
+    mobileNavHide.classList.toggle('d-none');
+  }
   return (
     <header id="header" style={{zIndex:"1111"}} className="header d-flex align-items-center">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -13,8 +20,8 @@ function Header() {
             
           </h1>
         </a>
-        <i className="mobile-nav-toggle mobile-nav-show bi bi-list" />
-        <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x" />
+        <i onClick={mobileNavToogle} className="mobile-nav-toggle mobile-nav-show bi bi-list" />
+        <i onClick={mobileNavToogle} className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x" />
         <nav id="navbar" className="navbar">
           <ul>
             <li>
