@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let portfolioSort = portfolionIsotope.getAttribute('data-portfolio-sort') ? portfolionIsotope.getAttribute('data-portfolio-sort') : 'original-order';
 
     window.addEventListener('load', () => {
+      alert("loaded")
       let portfolioIsotope = new Isotope(document.querySelector('.portfolio-container'), {
         itemSelector: '.portfolio-item',
         layoutMode: portfolioLayout,
@@ -92,7 +93,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       let menuFilters = document.querySelectorAll('.portfolio-isotope .portfolio-flters li');
       menuFilters.forEach(function(el) {
+        alert("looped")
+
         el.addEventListener('click', function() {
+          alert("clicked")
+
           document.querySelector('.portfolio-isotope .portfolio-flters .filter-active').classList.remove('filter-active');
           this.classList.add('filter-active');
           portfolioIsotope.arrange({
