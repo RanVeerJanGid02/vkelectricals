@@ -118,7 +118,7 @@ function Projects() {
             data-portfolio-layout="masonry"
             data-portfolio-sort="original-order"
           >
-            <ul
+            {/* <ul
               className="portfolio-flters"
               data-aos="fade-up"
               data-aos-delay={100}
@@ -130,7 +130,7 @@ function Projects() {
               <li data-filter=".filter-construction">Construction</li>
               <li data-filter=".filter-repairs">Repairs</li>
               <li data-filter=".filter-design">Design</li>
-            </ul>
+            </ul> */}
             {/* End Projects Filters */}
             <div
               className="row gy-4 portfolio-container"
@@ -145,26 +145,13 @@ function Projects() {
                   key={i}
                 >
                   <div className="portfolio-content h-100">
-                    <img src={item.image} className="img-fluid" alt="" />
-                    <div className="portfolio-info">
-                      <h4>{item.title}</h4>
-                      <p>{item.discription}</p>
-                      <a
-                        href={item.image}
-                        title="Construction 1"
-                        data-gallery="portfolio-gallery-construction"
-                        className="glightbox preview-link"
-                      >
-                        <i className="bi bi-zoom-in" />
-                      </a>
-                      <a
-                        href="project-details.html"
-                        title="More Details"
-                        className="details-link"
-                      >
-                        <i className="bi bi-link-45deg" />
-                      </a>
-                    </div>
+                    <img
+                      role="button"
+                      data-gallery="portfolio-gallery-construction"
+                      src={item.image}
+                      className="img-fluid glightbox preview-link"
+                      alt=""
+                    />
                   </div>
                 </div>
               ))}
