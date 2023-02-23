@@ -27,12 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let section = document.querySelector(navbarlink.hash);
     if (!section) return;
 
-    navbarlink.addEventListener('click', () => {
-      if (document.querySelector('.mobile-nav-active')) {
-        mobileNavToogle();
-      }
-    });
-
   });
 
   /**

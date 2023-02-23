@@ -25,18 +25,18 @@ function Header() {
         <nav id="navbar" className="navbar">
           <ul>
             <li>
-              <a href="index.html" className="active">
+              <a onClick={mobileNavToogle} href="#hero" className="active">
                 Home
               </a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a onClick={mobileNavToogle} href="#services">Services</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a onClick={mobileNavToogle} href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#contact">Contact Us</a>
+              <a onClick={mobileNavToogle} href="#contact">Contact Us</a>
             </li>
             {/* <li>
                 <a href="tel:9300550509">CLICK TO CALL</a>
