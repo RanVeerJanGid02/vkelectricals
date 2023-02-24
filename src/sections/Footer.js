@@ -1,5 +1,5 @@
 import React from "react";
-import { Address, EMAIL, PHONE } from "../Constant";
+import { Address, EMAIL, PHONE, PHONE1 } from "../Constant";
 
 function Footer() {
   return (
@@ -17,6 +17,10 @@ function Footer() {
                     <br />
                     <strong>Phone:</strong> {PHONE}
                     <br />
+                    <strong></strong>{PHONE1}
+                    <br />
+                    
+                    
                     <strong>Email:</strong> {EMAIL}
                     <br />
                   </p>
@@ -157,7 +161,6 @@ function Footer() {
         </div>
       </footer>
       {/* <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> */}
-
     </div>
   );
 }
