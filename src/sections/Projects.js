@@ -15,7 +15,7 @@ function Projects() {
       filterBy: "filter-construction",
     },
     {
-      image: "assets/img/vk/3.jpeg",
+      image: "assets/img/vk/11.jpeg",
       title: "3",
 
       filterBy: "filter-remodeling",
@@ -32,12 +32,7 @@ function Projects() {
 
       filterBy: "filter-remodeling",
     },
-    {
-      image: "assets/img/vk/6.jpeg",
-      title: "6",
-
-      filterBy: "filter-design",
-    },
+    
     {
       image: "assets/img/vk/7.jpeg",
       title: "7",
@@ -63,7 +58,7 @@ function Projects() {
       filterBy: "filter-repairs",
     },
     {
-      image: "assets/img/vk/11.jpeg",
+      image: "assets/img/vk/3.jpeg",
       title: "11",
 
       filterBy: "filter-design",
@@ -98,6 +93,30 @@ function Projects() {
 
       filterBy: "filter-design",
     },
+    {
+        image: "assets/img/vk/newpillar.jpeg",
+        title: "16",
+  
+        filterBy: "filter-design",
+      },
+      {
+        image: "assets/img/vk/6.jpeg",
+        title: "6",
+  
+        filterBy: "filter-design",
+      },
+      {
+        image: "assets/img/vk/newdp.jpeg",
+        title: "6",
+  
+        filterBy: "filter-design",
+      },
+      {
+        image: "assets/img/vk/newdp2.jpeg",
+        title: "6",
+  
+        filterBy: "filter-design",
+      },
   ];
 
   return (

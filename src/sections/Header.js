@@ -16,7 +16,7 @@ function Header() {
           {/* Uncomment the line below if you also wish to use an image logo */}
           {/* <img src="assets/img/logo.png" alt=""> */}
           <h1>
-            <img src="/favicon-32x32.png"/>
+            <img src="/favicon-32x32.png" alt="V.K. Electricals"/>
             
           </h1>
         </a>
