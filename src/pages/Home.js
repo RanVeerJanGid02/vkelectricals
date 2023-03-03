@@ -1,21 +1,22 @@
 import React, { Component, useState } from "react";
-import Footer from "../sections/Footer.js";
-import Header from "../sections/Header.js";
-import Welcome from "../sections/Welcome.js";
-import NewSrevices from "../sections/NewServies.js";
-import Projects from "../sections/Projects.js";
+// import Footer from "../sections/Footer.js";
+// import Header from "../sections/Header.js";
+// import Welcome from "../sections/Welcome.js";
+// import NewSrevices from "../sections/NewServies.js";
+// import Projects from "../sections/Projects.js";
 
-import ContactUs from "../sections/ContactUs.js";
+// import ContactUs from "../sections/ContactUs.js";
 
 function Home() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       {/* End Header */}
       {/* ======= Hero Section ======= */}
-      <Welcome />
+      {/* <Welcome /> */}
       {/* End Hero Section */}
       <main id="main">
+        <h1 className="container mt-5" style={{textAlignLast:"center"}}>Temporarily Under Maintenance</h1>
         {/* ======= Get Started Section ======= */}
         {/* <section id="get-started" className="get-started section-bg">
           <div className="container">
@@ -116,10 +117,10 @@ function Home() {
           </div>
         </section> */}
         {/* ======= Alt Services Section ======= */}
-        <NewSrevices />
+        {/* <NewSrevices /> */}
         {/* End Alt Services Section */}
         {/* ======= Our Projects Section ======= */}
-        <Projects />
+        {/* <Projects /> */}
         {/* End Our Projects Section */}
         {/* ======= Recent Blog Posts Section ======= */}
         {/* <Blogs/> */}
@@ -127,16 +128,16 @@ function Home() {
       </main>
       {/* End #main */}
       {/* <Contact/> */}
-      <ContactUs />
+      {/* <ContactUs /> */}
       {/* ======= Footer ======= */}
-      <Footer />
+      {/* <Footer /> */}
       {/* End Footer */}
-      <a
+      {/* <a
         href="#"
         className="scroll-top d-flex align-items-center justify-content-center"
       >
         <i className="bi bi-arrow-up-short" />
-      </a>
+      </a> */}
       {/* <div id="preloader" /> */}
     </div>
   );
