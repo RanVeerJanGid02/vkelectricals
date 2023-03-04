@@ -1,4 +1,5 @@
 import React, { Component, useState } from "react";
+import Mantainance from "./maintanance";
 // import Footer from "../sections/Footer.js";
 // import Header from "../sections/Header.js";
 // import Welcome from "../sections/Welcome.js";
@@ -16,7 +17,7 @@ function Home() {
       {/* <Welcome /> */}
       {/* End Hero Section */}
       <main id="main">
-        <h1 className="container mt-5" style={{textAlignLast:"center"}}>Temporarily Under Maintenance</h1>
+        <Mantainance/>
         {/* ======= Get Started Section ======= */}
         {/* <section id="get-started" className="get-started section-bg">
           <div className="container">
