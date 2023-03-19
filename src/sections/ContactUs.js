@@ -19,7 +19,7 @@ function ContactUs () {
                 <div className="col-lg-6">
                   <div className="info-item  d-flex flex-column justify-content-center align-items-center">
                     <i className="bi bi-map" />
-                    <h3>Our Address</h3>
+                    <h3 className="" style={{color:"#feb900"}}>Our Address</h3>
                     <p></p>{Address}
                   </div>
                 </div>{/* End Info Item */}
@@ -34,8 +34,8 @@ function ContactUs () {
                 <div className="col-lg-3 col-md-6">
                   <div className="info-item  d-flex flex-column justify-content-center align-items-center">
                     <i className="bi bi-telephone" />
-                    <h3><a href="tel:9300550509">Call Us</a></h3>
-                    <p></p>{PHONE}
+                    <h3 className="" style={{color:"#feb900"}}>Call Us</h3>
+                    <p> <a href="tel:9300550509" className="" style={{color:"black"}}> 9300550509 </a> </p>
                   </div>
                 </div>{/* End Info Item */}
               </div>

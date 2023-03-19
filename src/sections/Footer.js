@@ -1,5 +1,5 @@
 import React from "react";
-import { Address, EMAIL, PHONE, PHONE1 } from "../Constant";
+import { Address, EMAIL, PHONE, PHONE1, PHONE2 } from "../Constant";
 
 function Footer() {
   return (
@@ -15,7 +15,7 @@ function Footer() {
                     {Address}
                     <br />
                     <br />
-                    <strong>Phone:</strong> {PHONE}
+                    <strong>Phone:</strong> {PHONE}{PHONE2}
                     <br />
                     <strong></strong>{PHONE1}
                     <br />
